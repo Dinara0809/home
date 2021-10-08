@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a78efa76-6b7b-4571-8c31-60fb7ec1531e" name="Changes" comment="" />
+    <list default="true" id="a78efa76-6b7b-4571-8c31-60fb7ec1531e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/agent-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agent-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/agents-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agents-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/property.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/propertys.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/propertys.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

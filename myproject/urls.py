@@ -20,4 +20,12 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
-]
+    ]
+#     path('index', views.index, name='index'),
+#     path('', views.home, name='home'),
+#     path('menu1', views.menu, name='menu'),
+#     path('booktable', views.booktable, name='booktable'),
+#     path('contact', views.Conatct1, name='contact'),
+#     path('Event', views.Event, name='Event'),
+#     path('blood', views.blood, name='blood'),
+# ]
