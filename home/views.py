@@ -15,7 +15,7 @@ def agent(request):
 
 
 def blog(request):
-    return render(request, 'blog.html')
+    return render(request, 'blog-grid.html')
 
 
 def contact(request):
@@ -25,5 +25,19 @@ def contact(request):
 def property(request):
     return render(request, 'property.html')
 
-def propertys(request):
-    return render(request, 'propertys.html')
+
+# def propertys(request):
+#     return render(request, 'propertys.html')
+
+def agentsgrid(request):
+    return render(request, 'agents-grid.html')
+
+
+def agent(request):
+    agent = Agent.objects.all()
+    return render(request, 'index.html', {'agent': agent})
+
+
+def home(request):
+    home = Home.objects.all()
+    return render(request, 'property.html', {'home': home})

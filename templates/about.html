@@ -154,10 +154,10 @@
             <a  href="{% url 'about' %}">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="property-grid.html">Property</a>
+            <a  href="{% url 'property' %}">Property</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog-grid.html">Blog</a>
+            <a href="{% url 'blog' %}">blog</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -172,7 +172,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a href="{% url 'contact' %}">Contact</a>
           </li>
         </ul>
       </div>
@@ -197,7 +197,7 @@
           <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
             <ol class="breadcrumb">
               <li class="breadcrumb-item">
-            <a  href="{% url 'index' %}">Home</a>
+            <a href="index.html">Home</a>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
                 About
@@ -228,7 +228,7 @@
         <div class="col-md-12 section-t8">
           <div class="row">
             <div class="col-md-6 col-lg-5">
-              <img src="{% static 'img/about-2.jpg'% }" alt="" class="img-fluid">
+              <img src="{% static 'img/about-2.jpg'%}" alt="" class="img-fluid">
             </div>
             <div class="col-lg-2  d-none d-lg-block">
               <div class="title-vertical d-flex justify-content-start">
@@ -559,13 +559,13 @@
                 <a href="#">About</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Property</a>
+                <a  href="{% url 'property' %}">Property</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Blog</a>
+                <a href="{% url 'blog' %}">blog</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="{% url 'contact' %}">Contact</a>
               </li>
             </ul>
           </nav>
