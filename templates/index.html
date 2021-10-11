@@ -151,7 +151,7 @@
             <a  href="{% url 'index' %}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="{% url 'about' %}">About</a>
+            <a href="{% url 'about' %}">About</a>
           </li>
           <li class="nav-item">
             <a  href="{% url 'property' %}">Property</a>
@@ -165,10 +165,10 @@
               Pages
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="property-single.html">Property Single</a>
-              <a class="dropdown-item" href="blog-single.html">Blog Single</a>
-              <a class="dropdown-item" href="agents-grid.html">Agents Grid</a>
-              <a class="dropdown-item" href="agent-single.html">Agent Single</a>
+              <a class="dropdown-item active" href="{% url 'propertysingle'%}">Property Single</a>
+              <a class="dropdown-item active" href="{% url 'blogsingle'%}">Blog Single</a>
+              <a class="dropdown-item active" href="{% url 'agentsgrid'%}">Agents Grid</a>
+              <a class="dropdown-item active" href="{% url 'agentsingle'%}">Agent Single</a>
             </div>
           </li>
           <li class="nav-item">
@@ -187,7 +187,7 @@
   <!--/ Carousel Star /-->
   <div class="intro intro-carousel">
     <div id="carousel" class="owl-carousel owl-theme">
-      <div class="carousel-item-a intro-item bg-image" style="background-image: {% static 'img/slide-2.jpg' %}">
+      <img src="{% static 'img/slide-1.jpg'%}" alt="" class="img-a img-fluid">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -210,7 +210,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: {% static 'img/slide-2.jpg' %}">
+      <img src="{% static 'img/slide-2.jpg'%}" alt="" class="img-a img-fluid">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -233,7 +233,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: {% static 'img/slide-3.jpg'%}">
+      <img src="{% static 'img/slide-1.jpg'%}" alt="" class="img-a img-fluid">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">

@@ -157,7 +157,7 @@
             <a  href="{% url 'property' %}">Property</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog-grid.html">Blog</a>
+            <a  href="{% url 'blog' %}">Blog</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -165,10 +165,10 @@
               Pages
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="property-single.html">Property Single</a>
-              <a class="dropdown-item" href="blog-single.html">Blog Single</a>
-              <a class="dropdown-item" href="agents-grid.html">Agents Grid</a>
-              <a class="dropdown-item active" href="agent-single.html">Agent Single</a>
+              <a class="dropdown-item active" href="{% url 'propertysingle'%}">Property Single</a>
+              <a class="dropdown-item active" href="{% url 'blogsingle'%}">Blog Single</a>
+              <a class="dropdown-item active" href="{% url 'agentsgrid'%}">Agents Grid</a>
+              <a class="dropdown-item active" href="{% url 'agentsingle'%}">Agent Single</a>
             </div>
           </li>
           <li class="nav-item">
@@ -699,13 +699,13 @@
                 <a  href="{% url 'index' %}">Home</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a  href="{% url 'about' %}">About</a>
               </li>
               <li class="list-inline-item">
                 <a  href="{% url 'property' %}">Property</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Blog</a>
+                <a  href="{% url 'blog' %}">Blog</a>
               </li>
               <li class="list-inline-item">
                 <a href="{% url 'contact' %}">Contact</a>

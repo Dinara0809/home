@@ -148,10 +148,10 @@
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a  href="{% url 'index' %}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a  href="{% url 'about' %}">About</a>>
           </li>
           <li class="nav-item">
             <a  href="{% url 'property' %}">Property</a>
@@ -165,10 +165,10 @@
               Pages
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="property-single.html">Property Single</a>
-              <a class="dropdown-item active" href="blog-single.html">Blog Single</a>
-              <a class="dropdown-item" href="agents-grid.html">Agents Grid</a>
-              <a class="dropdown-item" href="agent-single.html">Agent Single</a>
+              <a class="dropdown-item active" href="{% url 'propertysingle'%}">Property Single</a>
+              <a class="dropdown-item active" href="{% url 'blogsingle'%}">Blog Single</a>
+              <a class="dropdown-item active" href="{% url 'agentsgrid'%}">Agents Grid</a>
+              <a class="dropdown-item active" href="{% url 'agentsingle'%}">Agent Single</a>
             </div>
           </li>
           <li class="nav-item">
